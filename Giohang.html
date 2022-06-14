@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/pay.css">
+    <link rel="stylesheet" href="assets/css/global-page.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome/css/all.css">
+    <link rel="stylesheet" href="assets/plugin/owlcarousel/assets/owl.carousel.css">
+    <link rel="stylesheet" href="assets/plugin/owlcarousel/assets/owl.theme.default.min.css">
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <script src="assets/plugin/owlcarousel/owl.carousel.min.js"></script>
+    <script src="assets/js/java.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@100;300;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@100;300;700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <title>Shop Unitop.vn</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="header" class="container flex">
+            <a href="index.html" id="logo">
+                <img src="assets/images/logo.png" alt="Shop Unitop">
+            </a>
+            <nav>
+                <ul id="main-menu" class="flex">
+                    <li>
+                        <a href="index.html">Trang chủ</a>
+                    </li>
+                    <li>
+                        <a href="../Giohang.html">Giỏ Hàng</a>
+                    </li>
+                    <li>
+                        <a href="../Sanpham.html">Sản Phẩm</a>
+                    </li>
+                    <li>
+                        <a href="../chitietsanpham.html">Chi Tiết</a>
+                    </li>
+                    <li>
+                        <a href="../CamNang.html">Cẩm nang</a>
+                    </li>
+                    <li>
+                        <a href="vidu/formdangkidangnhap.html">Tài Khoản</a>
+                    </li>
+                    <li>
+                        <a href="pay.html">Thanh toán</a>
+                    </li>
+                </ul>
+            </nav>
+            <form action="" method="get" id="search">
+                <input type="text" name="search" placeholder="Bạn muốn tìm gì">
+                <button>
+                        <i class="fas fa-search"></i>
+                </button>
+            </form>
+            <div id="cart">
+                <i class="fas fa-shopping-basket"></i>
+                <span>0</span>
+            </div>
+            <div id="wp-list-cart">
+                <ul id="list-cart">
+                </ul>
+                <div id="pay" class="flex justify-between">
+                    <div id="pay-price">Tổng:<span>250.000</span>VNĐ</div>
+                    <a href="pay.html" id="pay-now">Than toán ngay</a>
+                </div>
+            </div>
+        </div>
+        <div id="navigation-help">
+            <h1><i class="fas fa-home"></i> <a href="index.html">Trang chủ</a> <i class="fas fa-chevron-right"></i> <a href="pay.html">Thanh toán</a> </h1>
+        </div>
+        <div id="content">
+            <div class="container">
+                <div id="info-transport">
+                    <h1><i class="fas fa-info-circle"></i> &nbsp;&nbsp;Miễn Phí Vận Chuyển cho khách hàng chuyển khoản thanh toán trước 100% giá trị đơn hàng, tặng thời gian đổi trả 30 ngày. </h1>
+                </div>
+                <div id="payment-cart">
+                    <div class="head">
+                        <h1>Giỏ hàng</h1>
+                    </div>
+                    <div id="info_cart">
+                        <ul id="list-cart-pay">
+                            <li>
+                                <div class="product_payment flex justify-between">
+                                    <a href="" class="product-img">
+                                        <img src="assets/images/product/pic-product-1.png" alt="">
+                                    </a>
+                                    <div class="cart-info-product flex justify-between">
+                                        <div>
+                                            <a href="" class="cart-pr-name">Xà lách Lâm Đồng</a>
+                                            <label for="amount-product-cart-pay">Số lượng</label>
+                                            <input type="number" name="" class="amount-product-cart-pay" min="1" max="10" value="1"><br>
+                                            <span class="price-one">Giá:&nbsp;<span>250.000</span><span>&nbsp;VNĐ</span></span>
+                                        </div>
+                                        <div class="price">
+                                            <strong>Tổng:&nbsp;</strong><span>1.000.000</span><span>&nbsp;VNĐ</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div id="pay-all">
+                            <div class="pay-provisional flex justify-between margin-bt-10">
+                                <strong>Tạm tính:</strong>
+                                <div class="amount-provisional">
+                                    <span>1.000.000</span>
+                                    <span>VNĐ</span>
+                                </div>
+                            </div>
+                            <div class="promotion-code flex justify-between margin-bt-10">
+                                <strong>Mã khuyến mãi:</strong>
+                                <form action="" method="get" id="promotion" class="flex">
+                                    <input type="text" placeholder="Mã khuyến mại" value="D10">
+                                    <button>Áp dụng</button>
+                                </form>
+                            </div>
+                            <div class="pay-total flex justify-between margin-bt-10">
+                                <strong>Tổng cộng:</strong>
+                                <div class="amount-total">
+                                    <span>1.000.000</span>
+                                    <span>VNĐ</span>
+                                </div>
+                            </div>
+                            <div class=" flex justify-end">
+                                <a href="pay-end.html" class=" text-uppercase" id="to-pay-form"> Tiến hành thanh toán</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="footer">
+            <div class="container flex">
+                <div class="box address-1">
+                    <h3>Trụ sở chính:</h3>
+                    <p class="address">
+                        Số 6A8A, Thanh Xuân Bắc, Phường Thanh Xuân Bắc, Quận Thanh Xuân, Thành phố Hà Nội.
+                    </p>
+                    <p class="phone">Điện thoại: <span>04.3311.3998</span> </p>
+                    <p class="fax">Fax: <span>04.3311.3996</span></p>
+                </div>
+                <div class="box address-1">
+                    <h3>Chi nhánh Đà Nẵng:</h3>
+                    <p class="address">
+                        Số 6A8A, Thanh Xuân Bắc, Phường Thanh Xuân Bắc, Quận Thanh Xuân, Thành phố Hà Nội.
+                    </p>
+                    <p class="phone">Điện thoại: <span>04.3311.3998</span> </p>
+                    <p class="fax">Fax: <span>04.3311.3996</span></p>
+                </div>
+                <div class="box address-1">
+                    <h3>Chi nhánh Hồ Chí Minh:</h3>
+                    <p class="address">
+                        Số 6A8A, Thanh Xuân Bắc, Phường Thanh Xuân Bắc, Quận Thanh Xuân, Thành phố Hà Nội.
+                    </p>
+                    <p class="phone">Điện thoại: <span>04.3311.3998</span> </p>
+                    <p class="fax">Fax: <span>04.3311.3996</span></p>
+                </div>
+            </div>
+        </div>
+        <div id="coppyright">
+            <p>Copyright © 2016 - All rights reserved</p>
+        </div>
+    </div>
+</body>
+
+</html>
