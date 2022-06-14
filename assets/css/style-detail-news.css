@@ -1,0 +1,30 @@
+.detail-news {
+    margin-bottom: 60px;
+}
+
+.detail-news p {
+    text-align: justify;
+    font-weight: 400;
+}
+
+.detail-news h2 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 14px;
+}
+
+.wp-date {
+    display: block;
+    margin-bottom: 21px;
+}
+
+.news-img {
+    margin: 26px auto;
+    text-align: center;
+    width: 600px;
+}
+
+.news-img img {
+    width: 100%;
+    height: auto;
+}

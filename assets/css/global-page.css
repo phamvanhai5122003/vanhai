@@ -1,0 +1,113 @@
+#content {
+    background-color: #ffffff;
+    padding-top: 47px;
+}
+
+#content-head {
+    margin-bottom: 50px;
+}
+
+
+/*--------------nav page------------ */
+
+
+/* global */
+
+#nav-page {
+    display: flex;
+    justify-content: center;
+}
+
+.page a {
+    background-color: #c50808;
+    padding: 7px 14px;
+    margin: 0 5px;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.page a:hover {
+    background-color: #80b435;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+/* --------------navigation product -------*/
+
+#navigation-help {
+    background: url("../images/product/page-bg.png");
+    height: 216px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navigation-help h1 {
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+#navigation-help h1,
+#navigation-help h1 a {
+    text-align: center;
+    color: #ffffff;
+}
+
+#navigation-help h1 * {
+    padding-right: 7px;
+}
+
+
+/*------------------- content-------------- */
+
+#wp-content {
+    background-color: #ffffff;
+    padding: 50px 0 62px 0;
+}
+
+#content {
+    flex-basis: 818px;
+    min-height: 194px;
+    padding-right: 22px;
+}
+
+#sidebar {
+    flex-basis: 352px;
+    padding-left: 22px;
+}
+
+
+/*---------------- slidebar --------------*/
+
+#nav-page {
+    margin-bottom: 50px;
+}
+
+#wp-commitment {
+    padding-bottom: 40px;
+}
+
+.commitment {
+    border: 1px solid #b7b7b7;
+    padding: 14px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.commitment img {
+    padding-right: 5px;
+}
+
+.text-support {
+    font-size: 16px;
+}
+
+#ads a {
+    display: block;
+}
+
+#ads img {
+    width: 100%;
+}

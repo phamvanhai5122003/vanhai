@@ -1,0 +1,60 @@
+#posts {
+    padding: 0;
+    list-style-type: none;
+}
+
+.post {
+    display: flex;
+    margin-bottom: 27px;
+}
+
+.post * {
+    transition: 0.3s;
+}
+
+.post:hover p {
+    color: #80b435;
+}
+
+.post a:hover {
+    text-decoration: none;
+    color: #80b435;
+}
+
+.post-thumb {
+    display: block;
+    width: 309px;
+    height: 194px;
+    overflow: hidden;
+}
+
+.post-thumb img {
+    width: 100%;
+    height: auto;
+}
+
+.info-post {
+    width: 487px;
+    padding-left: 37px;
+}
+
+.post-title {
+    font-size: 22px;
+    display: block;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.date {
+    font-size: 13px;
+}
+
+.wp-date i {
+    font-size: 11px;
+}
+
+.post p {
+    font-size: 13px;
+    text-align: justify;
+    margin-top: 14px;
+}
